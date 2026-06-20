@@ -1,10 +1,10 @@
 // Comentário em linha
 /*
 Formas diferentes de criar variáveis em JavaScript:
-1 - Variavel Global (não recomendada, pode causar problemas de escopo e conflitos de nomes)
-2 - var (antiga, não recomendada)
-3 - let (recomendada para variáveis que podem mudar de valor)
-4 - const (recomendada para variáveis que não mudam de valor)
+1 - Variavel Global (não recomendada, pode causar problemas de escopo e conflitos de nomes) (não pode ser referenciada antes de ser declarada)
+2 - var (antiga, não recomendada) (pode ser referenciada antes de ser declarada, mas seu valor será undefined)
+3 - let (recomendada para variáveis que podem mudar de valor) (não pode ser referenciada antes da inicialização) 
+4 - const (recomendada para variáveis que não mudam de valor) (não pode ser referenciada antes da inicialização) 
 */
 idade = 23;
 
