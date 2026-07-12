@@ -15,6 +15,24 @@ console.log(frutas);
 
 // console.log("Última fruta:", frutas[frutas.length - 1]);
 
-frutas.splice(2, 1);
+// frutas.splice(2, 1);
 
-console.log("Depois de remover uma fruta:", frutas);
+// console.log("Depois de remover uma fruta:", frutas);
+
+// for (let i = 0; i < frutas.length; i++) {
+//   console.log("Índice:", i);
+//   console.log(frutas[i]);
+// }
+
+// console.log("Usando forEach:");
+
+// frutas.forEach((valor, indice) => {
+//   console.log("Índice:", indice);
+//   console.log("Valor:", valor);
+// });
+
+// console.log("Usando for of:");
+
+// for (const fruta of frutas) {
+//   console.log("Fruta da vez:", fruta);
+// }
