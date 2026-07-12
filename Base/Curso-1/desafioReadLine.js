@@ -30,13 +30,15 @@ rl.question(
             }
 
             if (acertos === 3) {
-              console.log("\nParabéns acertou tudo!");
+              console.log("\nParabéns, você gabaritou!");
             } else if (acertos === 2) {
               console.log("\nMuito bom! Continue assim!");
             } else if (acertos === 1) {
-              console.log("\nMuito bom! Continue Melhorando!");
+              console.log("\nBom! Continue estudando!");
             } else {
-              console.log("\nNão acertou nenhuma, continue praticando!");
+              console.log(
+                "\nNão acertou nenhuma, continue praticando e tente novamente!",
+              );
             }
 
             rl.close();
